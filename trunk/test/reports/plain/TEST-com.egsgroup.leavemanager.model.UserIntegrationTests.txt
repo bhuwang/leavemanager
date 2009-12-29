@@ -1,0 +1,19 @@
+Testsuite: com.egsgroup.leavemanager.model.UserIntegrationTests
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.312 sec
+------------- Standard Output ---------------
+--Output from testSaveUser--
+--Output from testSaveAndDelete--
+--Output from testAddManaging--
+--Output from testValidateBeforeSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSaveUser--
+--Output from testSaveAndDelete--
+--Output from testAddManaging--
+--Output from testValidateBeforeSave--
+------------- ---------------- ---------------
+
+Testcase: testSaveUser took 0.059 sec
+Testcase: testSaveAndDelete took 0.075 sec
+Testcase: testAddManaging took 0.063 sec
+Testcase: testValidateBeforeSave took 0.066 sec
