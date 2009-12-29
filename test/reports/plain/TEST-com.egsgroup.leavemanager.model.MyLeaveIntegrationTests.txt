@@ -1,0 +1,10 @@
+Testsuite: com.egsgroup.leavemanager.model.MyLeaveIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1.595 sec
+------------- Standard Output ---------------
+--Output from testAddUserAndLeave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testAddUserAndLeave--
+------------- ---------------- ---------------
+
+Testcase: testAddUserAndLeave took 1.519 sec

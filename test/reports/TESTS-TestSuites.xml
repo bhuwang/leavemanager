@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Richard-PC" id="0" name="MyLeaveIntegrationTests" package="com.egsgroup.leavemanager.model" tests="1" time="1.595" timestamp="2009-11-29T01:53:57">
+      <properties />
+
+      <testcase classname="com.egsgroup.leavemanager.model.MyLeaveIntegrationTests" name="testAddUserAndLeave" time="1.519" />
+
+      <system-out><![CDATA[--Output from testAddUserAndLeave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testAddUserAndLeave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Richard-PC" id="1" name="UserIntegrationTests" package="com.egsgroup.leavemanager.model" tests="4" time="0.312" timestamp="2009-11-29T01:53:58">
+      <properties />
+
+      <testcase classname="com.egsgroup.leavemanager.model.UserIntegrationTests" name="testSaveUser" time="0.059" />
+
+      <testcase classname="com.egsgroup.leavemanager.model.UserIntegrationTests" name="testSaveAndDelete" time="0.075" />
+
+      <testcase classname="com.egsgroup.leavemanager.model.UserIntegrationTests" name="testAddManaging" time="0.063" />
+
+      <testcase classname="com.egsgroup.leavemanager.model.UserIntegrationTests" name="testValidateBeforeSave" time="0.066" />
+
+      <system-out><![CDATA[--Output from testSaveUser--
+--Output from testSaveAndDelete--
+--Output from testAddManaging--
+--Output from testValidateBeforeSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSaveUser--
+--Output from testSaveAndDelete--
+--Output from testAddManaging--
+--Output from testValidateBeforeSave--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
