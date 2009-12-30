@@ -83,6 +83,24 @@
 						</td>
 					</tr>
 
+                    <tr class="prop">
+                                <td valign="top" class="name">
+                                    <label for="position">Position:</label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean:userInstance,field:'position','errors')}">
+                                    <g:select optionKey="id" from="${com.egsgroup.leavemanager.model.Position.list()}" name="position" value="${userInstance?.position}" ></g:select>
+                                </td>
+                    </tr>
+
+                    <tr class="prop">
+                                <td valign="top" class="name">
+                                    <label for="position">Manages:</label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean:userInstance,field:'managing','errors')}">
+                                    <g:select optionKey="id" from="${com.egsgroup.leavemanager.model.User.list()}" name="managing" value="${userInstance?.managing}" multiple="multiple"></g:select>
+                                </td>
+                    </tr>
+
 					<tr class="prop">
 						<td valign="top" class="name"><label for="authorities">Roles:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:userInstance,field:'authorities','errors')}">

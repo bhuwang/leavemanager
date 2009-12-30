@@ -22,16 +22,14 @@
   </div>
   
  <!-- ##### Left Navigation Bar ##### -->
+   <div id="admin">
+   <g:render template="/common/adminnav" />
+  </div>
+
   <div id="west">
    <g:render template="/common/leftnav" />
   </div>
- 
-  <div id="admin">
-   <g:render template="/common/adminnav" />
-  </div>
-  <div id="task">
-   <g:render template="/common/tasknav" />
-  </div>
+  
   <!-- ##### Content Area ##### -->
   <div id="center">
     <g:layoutBody />	

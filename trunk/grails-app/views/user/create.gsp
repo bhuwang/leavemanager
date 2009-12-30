@@ -89,7 +89,7 @@
                                     <label for="position">Manages:</label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean:userInstance,field:'managing','errors')}">
-                                    <g:select optionKey="id" from="${com.egsgroup.leavemanager.model.User.list()}" name="managingId" value="${userInstance*.id}" multiple="multiple"></g:select>
+                                    <g:select optionKey="id" from="${com.egsgroup.leavemanager.model.User.list()}" name="managing" value="${userInstance?.managing}" multiple="multiple"></g:select>
                                 </td>
                     </tr>
 
