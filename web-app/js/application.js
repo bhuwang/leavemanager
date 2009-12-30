@@ -49,16 +49,13 @@ Ext.onReady(function() {
                         animate:true
                     },
                     items: [{
-                        contentEl: 'west',
-                        title:'ToolBox',
-                        border:false
-                    },{
-					    contentEl: 'task',
-                        title:'Tasks',
-                        border:false
-                    },{
 					    contentEl: 'admin',
                         title:'Administration Console',
+                        border:false,
+                        iconCls:'settings'
+                    },{
+                        contentEl: 'west',
+                        title:'Employee Console',
                         border:false,
                         iconCls:'settings'
                     }]

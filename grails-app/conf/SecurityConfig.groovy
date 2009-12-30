@@ -9,6 +9,8 @@ security {
     encodeHashAsBase64 = false
 
 	loginUserDomainClass = "com.egsgroup.leavemanager.model.User"
+    userName = 'username'
+	password = 'passwd'
 	authorityDomainClass = "com.egsgroup.leavemanager.model.Role"
 	requestMapClass = "RequestMap"
 
@@ -25,6 +27,9 @@ security {
         /css/**=IS_AUTHENTICATED_ANONYMOUSLY
         /images/**=IS_AUTHENTICATED_ANONYMOUSLY
         /plugins/**=IS_AUTHENTICATED_ANONYMOUSLY
-        /**=IS_AUTHENTICATED_FULLY
+        /home/**=IS_AUTHENTICATED_FULLY
         """
+
+    useHttpSessionEventPublisher = true
+    
 }

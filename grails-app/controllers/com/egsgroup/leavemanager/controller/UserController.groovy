@@ -128,14 +128,8 @@ class UserController {
 		userInstance.properties = params
 		userInstance.passwd = authenticateService.encodePassword(params.passwd)
 		if (userInstance.save()) {
-            for (long key in params.managingId.keySet()){
-                def userInstanceManaging = User.get(key)
-                userInstance.addToManaging(userInstanceManaging)
-            }
-            //def userInstanceManaging = User.get(params.managingId)
-            //userInstance.addToManaging(userInstanceManaging)
-			addRoles(userInstance)
-			redirect action: show, id: userInstance.id
+            addRoles(userInstance)
+            redirect action: show, id: userInstance.id
 		}
 		else {
 			render view: 'create', model: [authorityList: Role.list(), userInstance: userInstance]
