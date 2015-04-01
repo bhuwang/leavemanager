@@ -1,0 +1,1 @@
+This application automates the process of applying for leave especially for small organisations that cant afford HR systems. I concieved of this project after i got tired of having to fill out paper forms each time i need to apply for leave
